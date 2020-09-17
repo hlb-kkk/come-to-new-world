@@ -4,13 +4,13 @@
 
 using namespace std;
 
-int t() {
+int main() {
 
-	//��ʶ������������
-	//1.��ʶ�������ǹؼ���
-	//2.��ʶ��ֻ������ĸ�����֡��»������
-	//3.��һ���ַ�����Ϊ��ĸ�����»���
-	//4.��ʶ������ĸ���ִ�Сд
+	//标识符的命名规则
+	//1.标识符不能是关键字
+	//2.标识符只能由字母、数字、下划线组成
+	//3.第一个字符必须为字母或者下划线
+	//4.标识符中字母区分大小写
 
 	int a = 10;
 	int a_ = 10;
@@ -25,12 +25,12 @@ int t() {
 
 	long long f = 432789;
 
-	// �ؼ���sizeof
-	//������sizeof���������ռ�ڴ��С
-	cout << "short ��ռ�ڴ�ռ��� " << sizeof(short) << endl;
-	cout << "int ��ռ�ڴ�ռ��� " << sizeof(int) << endl;
-	cout << "long��ռ�ڴ�ռ��� " << sizeof(long) << endl;
-	cout << "long long ��ռ�ڴ�ռ��� " << sizeof(long long) << endl;
+	// 关键字sizeof
+	//可以用sizeof求出数据所占内存大小
+	cout << "short 所占内存空间是 " << sizeof(short) << endl;
+	cout << "int 所占内存空间是 " << sizeof(int) << endl;
+	cout << "long所占内存空间是 " << sizeof(long) << endl;
+	cout << "long long 所占内存空间是 " << sizeof(long long) << endl;
 
 	cout << sizeof(a) << endl;
 
